@@ -146,4 +146,8 @@ footer {
 
 .attribution a {
   color: var(--color-accent-blue);
+
+  &:hover {
+    opacity: 0.8;
+  }
 }

@@ -143,6 +143,8 @@ footer {
 
 .attribution a {
   color: var(--color-accent-blue); }
+  .attribution a:hover {
+    opacity: 0.8; }
 
 .container {
   max-width: 130rem;
@@ -180,6 +182,8 @@ footer {
     transform: translateY(5px); }
   .btn-submit:focus {
     outline: none; }
+  .btn-submit:hover {
+    opacity: 0.9; }
 
 .u-mb-sm {
   margin-bottom: 3rem; }
