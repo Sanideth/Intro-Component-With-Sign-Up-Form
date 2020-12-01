@@ -4,7 +4,7 @@
   "description": "Intro component with sign up from from frontendmentor.io challenges",
   "main": "index.js",
   "scripts": {
-    "watch:sass": "node-sass sass/main.scss css/style.css",
+    "watch:sass": "node-sass sass/main.scss css/style.css -w",
     "prefix:css": "postcss --use autoprefixer -b \"last 10 versions\" css/style.css -o css/style.prefixed.css"
   },
   "repository": {
