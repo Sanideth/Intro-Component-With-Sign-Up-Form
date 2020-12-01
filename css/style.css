@@ -140,6 +140,9 @@ a:link {
 footer {
   text-align: center; }
 
+.attribution a {
+  color: var(--color-accent-blue); }
+
 .container {
   max-width: 130rem;
   margin: auto 0; }
@@ -182,6 +185,9 @@ footer {
 
 .u-mb-b {
   margin-bottom: 10rem; }
+  @media only screen and (max-width: 53em) {
+    .u-mb-b {
+      margin-bottom: 5rem; } }
 
 .error-border {
   border-color: var(--color-primary-red); }
