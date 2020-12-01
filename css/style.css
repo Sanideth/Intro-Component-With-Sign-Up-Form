@@ -138,7 +138,8 @@ a:link {
     font-weight: 600; }
 
 footer {
-  text-align: center; }
+  text-align: center;
+  color: #fff; }
 
 .attribution a {
   color: var(--color-accent-blue); }
