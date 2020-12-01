@@ -132,7 +132,8 @@ a:link {
     visibility: hidden; }
   .main__form-terms-text {
     font-size: 1.2rem;
-    text-align: center; }
+    text-align: center;
+    color: var(--color-neutral-grayish-blue); }
   .main__form-terms-link {
     color: var(--color-primary-red);
     font-weight: 600; }
