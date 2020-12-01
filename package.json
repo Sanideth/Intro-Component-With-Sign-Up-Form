@@ -1,0 +1,25 @@
+{
+  "name": "intro-component-with-sign-up-form",
+  "version": "1.0.0",
+  "description": "Intro component with sign up from from frontendmentor.io challenges",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "node-sass sass/main.scss css/style.css",
+    "prefix:css": "postcss --use autoprefixer -b \"last 10 versions\" css/style.css -o css/style.prefixed.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sanideth/Intro-Component-With-Sign-Up-Form.git"
+  },
+  "author": "Sandro Bochorishvili",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sanideth/Intro-Component-With-Sign-Up-Form/issues"
+  },
+  "homepage": "https://github.com/Sanideth/Intro-Component-With-Sign-Up-Form#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.8.6",
+    "node-sass": "^5.0.0",
+    "postcss-cli": "^8.3.0"
+  }
+}
