@@ -2,12 +2,8 @@
   margin-bottom: 3rem;
 }
 
-.u-mb-b {
-  margin-bottom: 10rem;
-
-  @media only screen and (max-width: $bp-medium) {
-    margin-bottom: 5rem;
-  }
+.u-mt-sm {
+  margin-top: 1rem;
 }
 
 .error-border {
