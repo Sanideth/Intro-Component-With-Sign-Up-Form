@@ -5,3 +5,11 @@
 .u-mb-b {
   margin-bottom: 10rem;
 }
+
+.error-border {
+  border-color: var(--color-primary-red);
+}
+
+.error-insert {
+  visibility: visible;
+}
