@@ -6,7 +6,15 @@ const buttonSubmit = document.getElementById('btn-submit');
 
 
 
-
+inputElements.forEach(input => {
+    input.addEventListener('input', () => {
+        if (input.value !== "") {
+            input.classList.remove('error-border');
+            input.nextElementSibling.classList.remove("error-insert");
+            input.nextElementSibling.nextElementSibling.classList.remove("error-insert");
+        }
+    })
+})
 
 
 buttonSubmit.addEventListener('click', (e) => {
@@ -18,10 +26,12 @@ buttonSubmit.addEventListener('click', (e) => {
             input.nextElementSibling.nextElementSibling.classList.add("error-insert")
             
             
+            
         } else {
             input.classList.remove('error-border');
             input.nextElementSibling.classList.remove("error-insert");
-            input.nextElementSibling.nextElementSibling.classList.remove("error-insert")
+            input.nextElementSibling.nextElementSibling.classList.remove("error-insert");
+            
         }
 
         
@@ -38,4 +48,7 @@ buttonSubmit.addEventListener('click', (e) => {
         email.nextElementSibling.nextElementSibling.classList.remove("error-insert")
     }
 })
+
+
+
 
